@@ -7,10 +7,12 @@ A comprehensive collection of Ruby exercises focusing on **Arrays**, **Hashes**,
 ```
 practice-set-ruby-2/
 ├── README.md                 # This file
-├── ARRAY-QUESTIONS.md        # Array and Hash exercise questions
-├── BLOCK-QUESTIONS.md        # Block, Proc, and Lambda exercise questions
-├── array-1.rb to array-14.rb # Array and Hash solutions
-└── block-1.rb to block-15.rb # Block, Proc, and Lambda solutions
+├── array/                    # Array and Hash exercises
+│   ├── README.md            # Array-specific documentation
+│   └── array-*.rb           # Array and Hash solutions (1-14)
+└── block/                    # Block, Proc, and Lambda exercises
+    ├── README.md            # Block-specific documentation
+    └── block-*.rb           # Block, Proc, and Lambda solutions (1-15)
 ```
 
 ## 🎯 Learning Objectives
@@ -56,35 +58,35 @@ By completing this practice set, you will:
    cd /home/rails/Aditya/Syllabus/Ruby/practice-set-ruby-2
    ```
 
-2. **Read the questions:**
+2. **Read the documentation:**
    ```bash
    # For array and hash exercises
-   cat ARRAY-QUESTIONS.md
+   cat array/README.md
    
    # For block, proc, and lambda exercises
-   cat BLOCK-QUESTIONS.md
+   cat block/README.md
    ```
 
 3. **Run individual solutions:**
    ```bash
    # Run array exercises
-   ruby array-1.rb
-   ruby array-2.rb
+   ruby array/array-1.rb
+   ruby array/array-2.rb
    # ... and so on
    
    # Run block exercises
-   ruby block-1.rb
-   ruby block-2.rb
+   ruby block/block-1.rb
+   ruby block/block-2.rb
    # ... and so on
    ```
 
 4. **Run all exercises at once:**
    ```bash
    # Run all array exercises
-   for file in array-*.rb; do echo "=== $file ==="; ruby "$file"; echo; done
+   for file in array/array-*.rb; do echo "=== $file ==="; ruby "$file"; echo; done
    
    # Run all block exercises
-   for file in block-*.rb; do echo "=== $file ==="; ruby "$file"; echo; done
+   for file in block/block-*.rb; do echo "=== $file ==="; ruby "$file"; echo; done
    ```
 
 ## 📖 Exercise Highlights
